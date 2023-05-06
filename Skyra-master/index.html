@@ -1,0 +1,234 @@
+<html>
+ <link rel="icon" type="image/jpg" href="assets\logo.jpg">
+<head>
+<title>MENTAL HEALTH</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> OVERVIEW</a>
+    <a href="#important" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-eye"></i>IMPORTANCE</a>
+    <a href="#dealing" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-handshake-o"></i>HOW TO DEAL</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-h5ide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MENTAL <span class="w3-hide-small">HEALTH </span> AWARENESS</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center" style ="color :indianred">ABOUT: MENTAL HEALTH AWARENESS & SELF IMPROVEMENT</h3>
+  <p class="w3-center"><em>A blog about mental health awareness and ideas to help and reduce stigma around
+    mental health conditions by sharing guidance for achieving fulfilment and happiness.</em></p>
+  
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      
+      <img src="/assets/pic1.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo" width="400" height="250">
+    </div>
+
+ 
+    <div class="w3-col m6 w3-hide-small w3-padding-48">
+      <p>In recent years, there has been increasing acknowledgement of the important role
+        mental health plays in achieving global development goals, as illustrated by the
+        inclusion of mental health in the Sustainable Development Goals. Depression is one
+        of the leading causes of disability. Suicide is the fourth leading cause of death among
+        15-29-year-olds. People with severe mental health conditions die prematurely as
+        much as two decades early due to preventable physical conditions..</p>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">OVERVIEW</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">In recent years, there has been increasing acknowledgement of the important role
+    mental health plays in achieving global development goals, as illustrated by the
+    inclusion of mental health in the Sustainable Development Goals. Depression is one
+    of the leading causes of disability. Suicide is the fourth leading cause of death among
+    15-29-year-olds. People with severe mental health conditions die prematurely as
+    much as two decades early due to preventable physical conditions</h3>
+  <p class="w3-center"><em> <a href="https://www.who.int/health-topics/mental-health#tab=tab_1" title="More" target="_blank" class="w3-hover-text-green">Click here for more info</a></em></p>
+
+
+  </div>
+</div>
+
+
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+       <span class="w3-xxlarge w3-text-white w3-wide">IMPORTANCE OF MENTAL HEALTH</span>
+    </div>
+  </div>
+  
+
+  <div class="w3-content w3-container w3-padding-64" id="important">
+    <h3 class="w3-center">Mental health includes an individual’s psychological, emotional and social well-being.
+        Proper mental health results in the proper mental functioning that results in being
+        productive in activities, healthy and fulfilling relationships with other people and
+        having the ability to cope and adapt to adversity.
+        For a long time, mental health has been defined as the absence of mental illnesses
+        such as anxiety and depression. Mental illness typically refers to all the diagnosable
+        mental disorders and health conditions that are characterized by alterations in mood,
+        thinking and behaviour associated with impaired functioning or distress.
+        Help is available out there; people with mental health problems can get better by
+        seeking help.</h3>
+    <p class="w3-center"><em><a href="https://www.verywellmind.com/the-importance-of-mental-health-for-wellbeing-5207938" title="important" target="_blank" class="w3-hover-text-green">Click here for more info</a></em></p>
+    
+    </div>
+  </div>
+
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">DEALING WITH ANXIETY AND DEPRESSION</span>
+  </div>
+</div>
+
+
+
+<div class="w3-content w3-container w3-padding-64" id="dealing">
+  <h3 class="w3-center">People suffering from mental health issues show various symptoms such as little
+    energy or no energy, pushing away people and pulling themselves back from regular
+    activities, loss of sleep or the will to eat, smoking, drinking or doing drugs, feeling
+    helpless, yelling and fighting, losing temper very quickly, harming themselves and
+    many more.</h3>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-64">
+        
+        <img src="/assets/pic2.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo" width="400" height="250">
+      </div>
+    <h3 class="w3-center"> <b> OVERCOMING AND COPING </b>  </h3>
+    <p class = "w3-left-align"> <b>1.</b> Stay in the present moment. Practising meditation can help. Anxiety can make
+      your thoughts live in a terrible future that hasn’t happened yet. Try to bring yourself
+      back to where you are.
+       </p>
+    <p class = "w3-left-align">
+      <b> 2.</b> Stress management might include regularly practising meditation or slow breathing
+exercises </p>
+    <p class = "w3-left-alignr"> <b>3.</b> Healthy lifestyle. Keeping active, eating well, going out into nature, spending time
+      with family and friends, reducing stress and doing the activities you enjoy are all </p>
+    <p class = "w3-left-align"> <b>4.</b> Take small acts of bravery. Avoiding what makes you anxious provides some relief
+      in the short term, but can make you more anxious in the long term. Try approaching
+      something that makes you anxious even in a small way. The way through anxiety is
+      by learning that what you fear isn’t likely to happen and if it does, you’ll be able to
+      cope with it.
+       </p>
+       <p class = "w3-left-align"> <b>5.</b> Be kind to yourself. Remember that you are not your anxiety. You are not weak.
+        You are not inferior. Your feelings are valid. It's okay not to feel okay.
+         </p>
+         
+   
+  <p class="w3-center"><em><a href="https://www.verywellmind.com/manage-your-anxiety-2584184" title="Coping" target="_blank" class="w3-hover-text-green">Click here for more info</a></em></p>
+  
+  </div>
+</div>
+
+<div class="bgimg-5 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Website Created by - Rayn Amberdawn Punsalan <br><em>I'd love your feedback!</em></br><br>Swing by for a cup of <i class="fa fa-coffee"></i></br>or leave me a note:<a href="https://www.instagram.com/beauteous_oul/?hl=en" target="_blank"><i
+    class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/beauteous_oul?t=p0Qpn3yoJARbQ8BN5Okrow&s=09" target="_blank"><i
+      class="fa fa-twitter w3-hover-opacity"></i></a></i></h3>
+ 
+ 
+  <div>
+   
+</div>
+  <div class="w3-row w3-padding-32 w3-section">
+     
+
+    </div>
+  </div>
+</div>
+
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+ 
+
+</footer>
+ 
+<script>
+
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
